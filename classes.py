@@ -106,7 +106,7 @@ class Player:
             #Passing Go check when jumping to a lower tile index
             if initialPosition > self.playerPosition:
                 self.playerBalance += 200
-class Proptery:
+class Property:
     def __init__(self, propertyName, price, rent):
         self.name = propertyName
         self.price = price
